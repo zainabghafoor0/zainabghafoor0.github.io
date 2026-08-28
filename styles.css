@@ -3,3 +3,5 @@
 /* Research-oriented profile additions */
 .research-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.research-grid article{border:1px solid var(--line);border-top:4px solid var(--accent);padding:20px}.research-grid h3{font:700 18px "Source Serif 4",serif;color:var(--accent)}.research-grid p{color:var(--muted);margin:8px 0 0}
 @media(max-width:760px){.research-grid{grid-template-columns:1fr}}
+/* Publication links */
+.publication+.publication{margin-top:28px;padding-top:28px;border-top:1px dashed var(--line)}.publication h3 a{text-decoration:none}.publication h3 a:hover{text-decoration:underline}.pub-links{display:flex;gap:14px;margin:8px 0}.pub-links a{font-size:13px;font-weight:700}
