@@ -5,3 +5,5 @@
 @media(max-width:760px){.research-grid{grid-template-columns:1fr}}
 /* Publication links */
 .publication+.publication{margin-top:28px;padding-top:28px;border-top:1px dashed var(--line)}.publication h3 a{text-decoration:none}.publication h3 a:hover{text-decoration:underline}.pub-links{display:flex;gap:14px;margin:8px 0}.pub-links a{font-size:13px;font-weight:700}
+/* Blue theme */
+:root{--accent:#194a92;--accent-dark:#103263;--blue:#194a92;--line:#d8dee8;--soft:#f3f6fa}.portrait{background:linear-gradient(145deg,#2c68bc,var(--accent-dark));box-shadow:0 8px 28px #10326325;border-color:#e4ebf5}.notice{background:#f2f6fc}.tag{background:#edf3fb;color:#194a92}
