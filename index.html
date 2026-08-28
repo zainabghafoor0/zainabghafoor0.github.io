@@ -1,123 +1,96 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Portfolio of Zainab Ghafoor, a computer science student and AI/ML software engineering intern." />
-    <meta name="theme-color" content="#f7f3eb" />
-    <title>Zainab Ghafoor | Software & AI</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="noise" aria-hidden="true"></div>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Zainab Ghafoor, home">ZG<span>.</span></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Zainab Ghafoor - Computer Science student, software engineer, and AI/ML scholar." />
+  <meta name="theme-color" content="#9f3b16" />
+  <title>Zainab Ghafoor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="nav-wrap">
+      <a class="site-name" href="#home">Zainab Ghafoor</a>
+      <button class="menu" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
       <nav aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a class="nav-contact" href="mailto:zainabghafoor212@gmail.com">Let’s talk <span>↗</span></a>
+        <a href="#home">Home</a><a href="Zainab_resume.pdf" target="_blank">Résumé</a><a href="#research">Research</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
       </nav>
-      <button class="menu" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
-    </header>
+    </div>
+  </header>
 
-    <main id="top">
-      <section class="hero reveal">
-        <div class="eyebrow"><span class="status-dot"></span> Open to software & AI opportunities</div>
-        <h1>I build thoughtful<br /><em>software</em> for real<br />people.</h1>
-        <div class="hero-footer">
-          <p>Computer Science student focused on software engineering, AI/ML, and turning complex problems into clear, useful solutions.</p>
-          <div class="hero-links">
-            <a class="button primary" href="#experience">Explore my work <span>↓</span></a>
-            <a class="button text-link" href="https://linkedin.com/in/zainab-ghafoor-8aa984333" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
-          </div>
-        </div>
-        <div class="hero-mark" aria-hidden="true">Z</div>
-      </section>
+  <main class="page" id="home">
+    <section class="bio">
+      <aside class="identity">
+        <div class="portrait" role="img" aria-label="Zainab Ghafoor monogram">ZG</div>
+        <h1>Zainab Ghafoor</h1>
+        <p>Undergraduate Researcher<br />Computer Science & AI/ML</p>
+        <div class="socials"><a href="mailto:zainabghafoor212@gmail.com">Email</a><a href="https://linkedin.com/in/zainab-ghafoor-8aa984333" target="_blank" rel="noreferrer">LinkedIn</a><a href="Zainab_resume.pdf" target="_blank">Résumé</a></div>
+      </aside>
+      <div class="bio-copy">
+        <p class="badge">Aspiring PhD student in computer science and artificial intelligence</p>
+        <p>I am an undergraduate Computer Science student at <strong>Sonoma State University</strong> interested in building reliable, responsible, and human-centered AI systems. My long-term goal is to pursue a PhD and contribute research that connects rigorous computing methods with meaningful real-world impact.</p>
+        <p>My early research experience includes a poster at <strong>ACM BCB 2025</strong> on improving medical AI safety through multi-agent evaluation and iterative refinement. Through <strong>STARS Computing Core</strong>, I also study responsible and inclusive AI and translate technical concepts into K-12 learning resources.</p>
+        <p>Industry internships at <strong>Keysight Technologies</strong> and <strong>Tech Mahindra</strong> are strengthening my ability to work with AI/ML, network data, Python automation, experimental evaluation, and cross-functional engineering teams.</p>
+        <div class="notice"><strong>Research goal:</strong> Join a research group where I can deepen my foundations, contribute dependable experimental work, learn from faculty and graduate mentors, and prepare for doctoral study.</div>
+      </div>
+    </section>
 
-      <section class="intro reveal" id="about">
-        <p class="section-label">01 — About</p>
-        <div>
-          <h2>Curious by nature.<br />Grounded in <em>impact.</em></h2>
-          <div class="intro-copy">
-            <p>I’m Zainab, a Computer Science student at Sonoma State University with hands-on experience across AI/ML, telecommunications, Python automation, and technical education.</p>
-            <p>I care about reliable software, responsible AI, and collaborative work that makes technology more useful and accessible.</p>
-          </div>
-        </div>
-      </section>
+    <section id="research"><h2>Research Profile</h2><div class="research-grid">
+      <article><h3>Research Interests</h3><p>Responsible and trustworthy AI, medical AI safety, multi-agent systems, machine learning evaluation, human-centered computing, and AI for social impact.</p></article>
+      <article><h3>Research Preparation</h3><p>Poster presentation experience, AI/ML software engineering, technical communication, algorithm design, Python and C++, data analysis, and collaborative project work.</p></article>
+      <article><h3>Questions I Want to Explore</h3><p>How can AI systems be evaluated more reliably? How can multi-agent methods improve safety? How can advanced AI be made accessible in education and other high-impact settings?</p></article>
+    </div></section>
 
-      <section class="skills-band" aria-label="Technical skills">
-        <div class="marquee">
-          <span>Python</span><i>✦</i><span>C++</span><i>✦</i><span>C</span><i>✦</i><span>AI / ML</span><i>✦</i><span>Unix / Linux</span><i>✦</i><span>Algorithms</span><i>✦</i><span>OOP</span><i>✦</i><span>Python</span><i>✦</i><span>C++</span>
-        </div>
-      </section>
+    <section id="news"><h2>Research & Career Highlights</h2><ul class="news-list">
+      <li><time>Summer 2026</time><span>Joining <strong>Keysight Technologies</strong> as an AI/ML Software Engineering Intern in the Customer Solutions Group.</span></li>
+      <li><time>April 2026</time><span>Completing the <strong>STARS AI Scholars</strong> program focused on responsible AI and K-12 outreach.</span></li>
+      <li><time>October 2025</time><span>Presented research on medical AI safety at <strong>ACM BCB 2025</strong>.</span></li>
+      <li><time>August 2025</time><span>Completed a Software Developer Internship at <strong>Tech Mahindra</strong>, supporting cellular RF testing and Python automation.</span></li>
+    </ul></section>
 
-      <section class="experience reveal" id="experience">
-        <div class="section-heading">
-          <p class="section-label">02 — Experience</p>
-          <h2>Where I’ve been<br /><em>building & learning.</em></h2>
-        </div>
-        <div class="timeline">
-          <article class="role featured">
-            <div class="role-number">01</div>
-            <div><p class="role-company">Keysight Technologies</p><h3>AI/ML Software Engineering Intern</h3><p>Applied AI/ML and software engineering to telecommunications and network data challenges. Developed and evaluated solutions, collaborated with technical mentors, and presented outcomes across teams.</p></div>
-            <div class="role-meta"><span>Summer 2026</span><span>Santa Rosa, CA</span></div>
-          </article>
-          <article class="role">
-            <div class="role-number">02</div>
-            <div><p class="role-company">STARS Computing Core</p><h3>AI Scholar</h3><p>Explore responsible and inclusive AI while creating K–12 curricular resources and supporting outreach that helps the next generation understand emerging technology.</p></div>
-            <div class="role-meta"><span>2025 — 2026</span><span>Remote</span></div>
-          </article>
-          <article class="role">
-            <div class="role-number">03</div>
-            <div><p class="role-company">Tech Mahindra</p><h3>Software Developer Intern</h3><p>Reviewed Python scripts for cellular RF testing, analyzed device performance, and supported measurement workflows for major carriers and device manufacturers.</p></div>
-            <div class="role-meta"><span>Summer 2025</span><span>Fremont, CA</span></div>
-          </article>
-          <article class="role">
-            <div class="role-number">04</div>
-            <div><p class="role-company">YMCA</p><h3>ASES Program Aide</h3><p>Provide academic support and enrichment for elementary students while fostering a welcoming and inclusive learning environment.</p></div>
-            <div class="role-meta"><span>2024 — Present</span><span>Rohnert Park, CA</span></div>
-          </article>
-        </div>
-      </section>
+    <section id="experience"><h2>Research & Technical Experience</h2>
+      <div class="entries">
+        <article><time>Summer 2026</time><div><h3>AI/ML Software Engineering Intern</h3><p class="org">Keysight Technologies - Customer Solutions Group</p><ul><li>Apply AI/ML and software engineering to telecommunications and network data challenges.</li><li>Develop and evaluate software solutions, collaborate with technical mentors, and present outcomes across teams.</li></ul></div></article>
+        <article><time>Oct 2025 - Apr 2026</time><div><h3>AI Scholar</h3><p class="org">STARS Computing Core</p><ul><li>Explore responsible and inclusive AI while creating K-12 curricular resources and outreach experiences.</li></ul></div></article>
+        <article><time>Jun - Aug 2025</time><div><h3>Software Developer Intern</h3><p class="org">Tech Mahindra (Americas) Inc.</p><ul><li>Reviewed Python scripts for cellular RF testing and analyzed device performance for AT&T, Verizon, and T-Mobile workflows.</li><li>Supported testing for devices from Apple, Samsung, and Google.</li></ul></div></article>
+      </div>
+    </section>
 
-      <section class="publication reveal">
-        <p class="section-label light">03 — Research</p>
-        <div class="pub-card">
-          <div class="pub-top"><span>Featured publication</span><span>ACM BCB · Oct 2025</span></div>
-          <h2>Enhancing Medical AI Safety Through Multi-Agent Evaluation and Iterative Refinement</h2>
-          <p>Poster presentation at the Conference on Bioinformatics, Computational Biology, and Health Informatics.</p>
-          <span class="pub-arrow" aria-hidden="true">↗</span>
-        </div>
-      </section>
+    <section id="publication"><h2>Publication</h2><article class="publication"><span class="pub-year">2025</span><div><h3>Enhancing Medical AI Safety Through Multi-Agent Evaluation and Iterative Refinement</h3><p><strong>Zainab Ghafoor</strong> and collaborators</p><p>Conference on Bioinformatics, Computational Biology, and Health Informatics (ACM BCB), Poster Presentation, October 2025.</p><span class="tag">Medical AI</span><span class="tag">Multi-Agent Evaluation</span><span class="tag">AI Safety</span></div></article></section>
 
-      <section class="education reveal" id="education">
-        <div class="section-heading">
-          <p class="section-label">04 — Education</p>
-          <h2>A strong foundation,<br /><em>always expanding.</em></h2>
-        </div>
-        <div class="edu-grid">
-          <article><span class="edu-year">2024 — Present</span><h3>Sonoma State University</h3><p>B.S. in Computer Science</p><ul><li>Algorithm Design</li><li>Object-Oriented Programming</li><li>Computer Organization</li><li>Discrete Mathematics</li></ul></article>
-          <article><span class="edu-year">2023 — 2024</span><h3>Santa Rosa Junior College</h3><p>Computer Science Transfer Coursework</p><ul><li>Python & C++</li><li>Unix Operating System</li><li>Software Design</li><li>Data Structures</li></ul></article>
-        </div>
-      </section>
+    <section id="education"><h2>Education</h2><div class="entries">
+      <article><time>Aug 2024 - Present</time><div><h3>Sonoma State University</h3><p class="org">B.S. in Computer Science (In Progress) - Rohnert Park, CA</p><p>Coursework includes Object-Oriented Programming, Algorithm Design, Computer Organization, Discrete Mathematics, Unix, Python, and C++.</p></div></article>
+      <article><time>Jan 2023 - Jun 2024</time><div><h3>Santa Rosa Junior College</h3><p class="org">Computer Science Transfer Coursework - Santa Rosa, CA</p><p>Completed foundational coursework in programming, algorithms, discrete mathematics, Unix, and software design.</p></div></article>
+    </div></section>
 
-      <section class="values reveal">
-        <p class="section-label">05 — Beyond code</p>
-        <div class="values-copy"><h2>Technology is better<br />when it’s built with <em>empathy.</em></h2><p>From tutoring math to preparing meals at community shelters, I’ve learned that listening, patience, and service are every bit as important as technical skill.</p></div>
-        <div class="value-tags"><span>Community</span><span>Education</span><span>Inclusion</span><span>Service</span></div>
-      </section>
+    <section id="skills"><h2>Technical Skills</h2><div class="skill-grid">
+      <article><h3>Programming</h3><p>C++, C, Python, Unix shell scripting, HTML</p></article>
+      <article><h3>Tools & Technologies</h3><p>Visual Studio Code, NetBeans, Microsoft Office, Overleaf, Unix/Linux</p></article>
+      <article><h3>Research Strengths</h3><p>Literature-driven learning, experimental evaluation, technical communication, problem-solving, teamwork, and reliability</p></article>
+      <article><h3>Languages</h3><p>English, Urdu, Hindi, Punjabi</p></article>
+    </div></section>
 
-      <section class="contact reveal">
-        <p class="section-label light">06 — Contact</p>
-        <p class="contact-kicker">Have an opportunity or idea?</p>
-        <a href="mailto:zainabghafoor212@gmail.com">Let’s build something<br /><em>meaningful.</em> <span>↗</span></a>
-        <div class="contact-footer"><span>Based in Rohnert Park, California</span><span>© <span id="year"></span> Zainab Ghafoor</span></div>
-      </section>
-    </main>
-    <script src="script.js"></script>
-  </body>
+    <section id="leadership"><h2>Teaching & Leadership Experience</h2><div class="entries compact">
+      <article><time>Nov 2024 - Present</time><div><h3>ASES Program Aide - YMCA</h3><p>Provide academic support and inclusive enrichment activities for elementary students.</p></div></article>
+      <article><time>May 2023 - Oct 2025</time><div><h3>Private Math Tutor</h3><p>Taught algebra, calculus, and foundational mathematics using individualized problem-solving strategies.</p></div></article>
+      <article><time>Jun 2022 - Nov 2024</time><div><h3>Customer Service Representative</h3><p>Developed clear communication, careful record-keeping, and dependable coordination skills.</p></div></article>
+    </div></section>
+
+    <section id="service"><h2>Community Service</h2><div class="entries compact">
+      <article><time>2022</time><div><h3>City of Aging</h3><p>Prepared meals for community shelter guests and supported kitchen operations.</p></div></article>
+      <article><time>2023</time><div><h3>Father Joe's Village</h3><p>Prepared and served food with friendly, respectful guest service.</p></div></article>
+      <article><time>2021 - 2022</time><div><h3>San Diego Rescue Mission</h3><p>Served hot meals and helped maintain a welcoming dining environment.</p></div></article>
+      <article><time>2022</time><div><h3>FACE Foundation</h3><p>Supported fundraising events through food service and community outreach.</p></div></article>
+      <article><time>2020</time><div><h3>Gratiot County Free Clinic</h3><p>Assisted with patient registration, files, phone calls, and patient flow.</p></div></article>
+    </div></section>
+
+    <section id="contact"><h2>Contact</h2><div class="contact-grid"><article><h3>Research opportunities</h3><p>Rohnert Park, California</p><p>I welcome opportunities to contribute to faculty-led research, undergraduate research programs, and AI/ML projects that build toward doctoral study.</p></article><article class="accent-card"><h3>Get in touch</h3><a href="mailto:zainabghafoor212@gmail.com">zainabghafoor212@gmail.com</a><a href="tel:+19257523467">925-752-3467</a><a href="https://linkedin.com/in/zainab-ghafoor-8aa984333" target="_blank" rel="noreferrer">LinkedIn profile</a></article></div></section>
+  </main>
+  <footer><p>© <span id="year"></span> Zainab Ghafoor. All rights reserved.</p></footer>
+  <script src="script.js"></script>
+</body>
 </html>

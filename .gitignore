@@ -41,7 +41,6 @@ next-env.d.ts
 /outputs/
 /work/
 # Local source material and unused site scaffolding
-Zainab_resume.pdf
 node_modules/
 .next/
 dist/
